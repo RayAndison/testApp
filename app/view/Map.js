@@ -26,11 +26,10 @@ Ext.define('testApp.view.Map', {
                 },
                 listeners:{
                     painted: function(){
-                    //scope: map,
                         setTimeout(
                             function(){
                                 var pnt = new google.maps.LatLng(-30.024742,100.736234);
-                                //testApp.view.Map.down('map').down('mapOptions').setCenter(pnt);
+                                //...
                             },500);
                     }
                 }

@@ -10,5 +10,3 @@ Ext.define('testApp.store.GeoLocation', {
 });
 
 
-var abc = Ext.getStore('GeoLocationStore');
-abc.add({ userlat: -1234, userlong: 4321, address: "addresstwo" });

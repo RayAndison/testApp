@@ -16,7 +16,7 @@ Ext.define('testApp.controller.Locate', {
     },
     getPosition: function(){
     
-        /*Ext.device.Geolocation.getCurrentPosition({
+        Ext.device.Geolocation.getCurrentPosition({
             success: function (pos) {
                 userlat = pos.coords.latitude; userlong = pos.coords.longitude;
                 var locate = Ext.getCmp('locatecard');
@@ -42,7 +42,6 @@ Ext.define('testApp.controller.Locate', {
                 console.log(Lang.locationRetrievalError);
             }
         });
-        latlng:'-34.024742,150.736234';*/
         /*//get google reverse geolocation by proxy server
         Ext.Ajax.request({
             withCredentials: true,
@@ -53,7 +52,7 @@ Ext.define('testApp.controller.Locate', {
             sensor: 'true'
             },
             success: function(response) {
-                console.log("Spiffing, everything worked");
+                console.log("Everything worked");
             }
         });*/
         
