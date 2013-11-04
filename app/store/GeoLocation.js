@@ -8,5 +8,3 @@ Ext.define('testApp.store.GeoLocation', {
         ]
     }
 });
-
-

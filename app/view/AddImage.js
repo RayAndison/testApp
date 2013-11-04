@@ -28,9 +28,9 @@ Ext.define('testApp.view.AddImage', {
             },*/
             {
                 xtype: 'list',
-                store: 'GeoLocationStore',
+                store: 'Image',
                 //itemTpl: '{imageurl} {imagedata}'
-                itemTpl: '{userlat} {userlong} {address}'
+                itemTpl: '{imageurl} {imagedata}'
             }
         ]
     }
